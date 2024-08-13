@@ -680,7 +680,7 @@ th{
 .MainPage{
     background:linear-gradient(360.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 900%);
     width: 100%;
-    height: 170vh;
+    height: auto;
     position: relative;
     overflow: hidden;
 }
@@ -719,19 +719,21 @@ cursor: pointer;
 
 .content-container{
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
+   
 }
 
 .image-container{
   
-   margin-bottom: 20px;
+   margin-bottom: 0;
 }
-   .header h2{
-    font-size: 36px;
+
+   .text-container h2{
+    font-size: 34px;
    }
    .shape-span{
-    font-size: 42px;
+    font-size: 32px;
    }
    .stats-container{
     position: absolute;
@@ -753,7 +755,7 @@ cursor: pointer;
 }
 .stat-item:nth-child(2){
     position: relative;
-    top: -20px;
+    top: -28px;
     left: -200px;
 
     
@@ -761,6 +763,7 @@ cursor: pointer;
    .change-habit-container{
     height: auto;
     padding-bottom: 50px;
+
    }
    .change-habit-h2{
     font-size: 36px;
@@ -865,5 +868,8 @@ cursor: pointer;
     font-weight: 600;
     margin-bottom: 20px;
     
+    }
+    .footer-left h3, p{
+        text-align: left;
     }
 }
